@@ -1,0 +1,83 @@
+body {
+    background-image: url("../assets/background.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;
+    margin: 0;
+    background-size: cover;
+}
+
+.profile-box {
+    background-color: #000000cc;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 90px;
+    font-family: "Poppins", sans-serif;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 6px;
+    margin-top: 16px;
+    object-fit: cover;
+}
+
+.menu-icon, .setting-icon {
+    width: 25px;
+}
+
+.profile-box nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px -50px;
+}
+
+.profile-box h3, .profile-box p {
+    margin:0;
+    font-weight: 400;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-media img {
+    width: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+@media (max-width:450px) {
+    
+    .profile-box {
+        padding: 40px 65px;
+    }
+    
+    .profile-pic {
+        width: 83px;
+        height:83px;
+    }
+    
+    .profile-box nav {
+        margin: 0px -29px;
+    }
+    
+    .social-media {
+        margin: 2px 20px;
+    }
+    
+    .social-media img {
+        width: 20px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+}
